@@ -1,0 +1,10 @@
+method: bayes
+metric:
+  goal: maximize
+  name: valid_dataset_iou
+parameters:
+  alpha:
+    distribution: uniform
+    max: 0.99
+    min: 0
+program: DaVinci.py
